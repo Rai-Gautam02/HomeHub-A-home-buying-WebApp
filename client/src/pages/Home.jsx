@@ -69,10 +69,10 @@ export default function Home() {
       </div>
 
       {/* swiper */}
-      {/* <Swiper navigation>
-        {offerListings &&
-          offerListings.length > 0 &&
-          offerListings.map((listing) => (
+      <Swiper navigation>
+        {saleListings &&
+          saleListings.length > 0 &&
+          saleListings.map((listing) => (
             <SwiperSlide>
               <div
                 style={{
@@ -84,7 +84,7 @@ export default function Home() {
               ></div>
             </SwiperSlide>
           ))}
-      </Swiper> */}
+      </Swiper>
 
       {/* listing results for offer, sale and rent */}
 

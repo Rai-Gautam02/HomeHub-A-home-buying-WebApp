@@ -52,9 +52,9 @@ export default function Header() {
               Create Listing
             </li>
           </Link>
-          <Link to='/'>
+          <Link to='/search'>
             <li className='hidden sm:inline text-slate-700 hover:underline'>
-              Home
+              Buy
             </li>
           </Link>
           
